@@ -27,7 +27,7 @@ const Product = () => {
   return (
     <section className="box-border bg-gray-900">
       <div className="pl-3 sm:pl-12 pr-3 sm:pr-12">
-        <h2 className="font-bold pt-4 text-white text-2xl md:text-3xl lg:text-4xl">
+        <h2 className="font-bold pt-4 text-white text-2xl sm:text-3xl">
           CATEGORIES
         </h2>
         <div className="flex flex-col sm:flex-row p-0 gap-4 md:gap-7 py-3">
@@ -60,7 +60,7 @@ const Product = () => {
         </div>
       </div>
       <div className="pl-3 sm:pl-12 pr-3 sm:pr-12">
-        <h2 className="font-bold justify-start pt-4 pb-3 text-white text-2xl md:text-3xl lg:text-4xl">
+        <h2 className="font-bold justify-start pt-4 pb-3 text-white text-2xl sm:text-3xl">
           PRODUCT OVERVIEW
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

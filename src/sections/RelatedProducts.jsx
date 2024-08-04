@@ -12,7 +12,7 @@ const RelatedProducts = ({ currentProductId, currentCategory }) => {
 
   return (
     <div className="bg-gray-900 pl-3 pr-3 md:pl-5 md:pr-5 lg:pl-12 lg:pr-12 pb-32">
-      <h2 className="font-bold justify-start text-white text-2xl md:text-3xl lg:text-4xl mb-4">
+      <h2 className="font-bold justify-start text-white text-2xl sm:text-3xl mb-4">
         RELATED PRODUCTS
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">

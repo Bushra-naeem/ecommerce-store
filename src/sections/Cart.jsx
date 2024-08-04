@@ -26,7 +26,7 @@ const Cart = () => {
     >
       <div className="grid mx-auto md:px-32 xl:px-96 gap-2">
         <div className="md:col-span-2 w-full bg-gray-800 pr-6 rounded-md">
-          <h2 className="font-bold p-4 text-white text-2xl md:text-3xl lg:text-4xl">
+          <h2 className="font-bold p-4 text-white text-2xl lg:text-3xl">
             YOUR CART
           </h2>
           <hr className="border-gray-300 mt-2 mb-8" />

@@ -4,7 +4,10 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="w-full hidden sm:flex justify-between items-center bg-zinc-800 h-28 text-white text-lg lg:text-xl">
+    <section
+      className="w-full hidden sm:flex justify-between items-center bg-zinc-800 
+      h-24 text-white text-lg lg:text-xl"
+    >
       <div style={{ paddingLeft: 60 }}>
         © 2020 Dress Shop. All rights reserved.
       </div>
