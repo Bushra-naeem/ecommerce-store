@@ -1,0 +1,24 @@
+/* global.css */
+
+/* Default padding for smaller screens */
+.body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* Medium screens (768px and up) */
+@media (min-width: 768px) {
+    .body {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+  
+  /* Larger screens (1024px and up) */
+@media (min-width: 1024px) {
+    .body {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+  
