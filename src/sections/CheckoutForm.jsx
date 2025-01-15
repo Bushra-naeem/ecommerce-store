@@ -124,9 +124,15 @@ const CheckoutForm = () => {
             displayType={"text"}
             thousandSeparator={true}
             prefix={"P"}
-            renderText={(value) => (
-              <p className="text-red-600 text-2xl font-semibold">{value + 8}</p>
-            )}
+            renderText={(value) => {
+              // Parse value to number and add 8 for shipping
+              const total = parseFloat(value.replace(/[^0-9.-]+/g, "")) + 8;
+              return (
+                <p className="text-red-600 text-2xl font-semibold">
+                  P{total.toLocaleString()}
+                </p>
+              );
+            }}
           />
         </div>
       </div>
